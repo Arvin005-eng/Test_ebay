@@ -11,10 +11,10 @@ public class JVMReport {
 	public static void toGenerateReport(String json) {
 		File file = new File("target");
 
-		Configuration config = new Configuration(file, "Facebook");
+		Configuration config = new Configuration(file, "eBay");
 
-		config.addClassifications("Application", "FaceBook");
-		config.addClassifications("OPeration", "Testing");
+		config.addClassifications("Application", "eBay");
+		config.addClassifications("Operation", "Testing");
 		config.addClassifications("Tools", "selenium");
 
 		List<String> lis = new LinkedList<>();

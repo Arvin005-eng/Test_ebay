@@ -3,7 +3,7 @@ package org.pom;
 
 public class POMManager {
 	public static POMManager pomManager;
-	private LoginPage loginPage;
+	private Ebay ebay;
 	private POMManager() {
 	}
 
@@ -14,8 +14,8 @@ public class POMManager {
 		return pomManager;
 	}
 	
-	public  LoginPage getLoginPage() {
-			loginPage=new LoginPage();		
-		return loginPage;
+	public  Ebay geteBay() {
+		ebay=new Ebay();		
+		return ebay;
 	}
 }
